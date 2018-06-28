@@ -1,0 +1,14 @@
+<Page class="page"
+    navigatingTo="onNavigatingTo"  
+    xmlns="http://schemas.nativescript.org/tns.xsd"
+    xmlns:nativechat="@progress-nativechat/nativescript-nativechat">
+
+    <ActionBar class="action-bar">
+        <Label class="action-bar-title" text="Chat"></Label>
+    </ActionBar>
+
+    <GridLayout>
+        <!-- Add your page content here -->
+        <nativechat:NativeChat config="{{ nativeChatConfig }}"/>
+    </GridLayout>
+</Page>
